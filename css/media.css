@@ -1,0 +1,132 @@
+@media(min-width:992px) and (max-width:1199px){
+    .admin-img {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+}
+.th-footer form input[type="email"] {
+    width: 65%;
+}
+}
+
+@media(min-width:0px) and (max-width:991px){
+    .contact-form form input[type="email"] {
+        width: 100%;
+        float: right;
+    }
+    .contact-form form input[type="text"]:nth-child(1) {
+        width: 100%;
+        margin-right: 0px;
+    }
+    .admin-img{
+        margin-bottom: 30px;
+    }
+    .container-ga {
+        position: relative;
+        padding: 20px;
+        column-count: 2;
+        height: auto;
+        margin-bottom: 45px;
+    }
+}
+@media(min-width:0px) and (max-width:767px){
+    .bannerr{
+        text-align: center;
+    }
+    .center-heading {
+        width: 100%;
+    }
+    .au {
+        flex-direction: column-reverse;
+    }
+    .about-up {
+        margin-top: 30px;
+    }
+    .about-two {
+        margin-top: 30px;
+    }
+    .about-third-img img {
+        margin-top: 10px;
+    }
+    .at {
+        flex-direction: column-reverse;
+    }
+    .ser-box {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .choose-box {
+        margin-bottom: 25px;
+    }
+    .cut {
+        margin-top: 48px;
+    }
+    .counter-num {
+        padding-bottom: 45px;
+    }
+    .container-ga {
+        padding: 0px;
+        column-count: 1;
+    }
+    .slider {
+        display: inherit !important;
+        justify-content: center !important;
+        text-align: center;
+    }
+    .slide-img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .admin-img {
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .map{
+        margin-bottom: 20px;
+    }
+    .nd-footer{
+        margin-top: 40px;
+    }
+    .rd-footer{
+        margin-top: 40px;
+    }
+    .th-footer{
+        margin-top: 40px;
+    }
+    .ad {
+        width: 100%;
+        margin-bottom: 45px;
+    }
+    .address {
+        display: inherit !important;
+    }
+    .nd-footer ul li a, .rd-footer ul li a{
+        
+    }
+}
+@media(min-width:0px) and (max-width:575px){
+
+}
+@media(min-width:0px) and (max-width:425px){
+    .counter-num h1 {
+        font-size: 36px;
+    }
+    .icon-service {
+        width: 30%;
+    }
+}
+@media(min-width:0px) and (max-width:375px){
+    .icon-service {
+        width: 35%;
+    }
+}
+@media(min-width:0px) and (max-width:320px){
+    .icon-service {
+        width: 50%;
+    }
+
+}
